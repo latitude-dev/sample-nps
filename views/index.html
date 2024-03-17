@@ -1,0 +1,71 @@
+<svelte:head>
+  <title>Sample project</title>
+</svelte:head>
+<View class="flex-col gap-8 p-16">
+  <Column>
+    <Text.H1 class="font-bold">NPS response generator</Text.H1>
+    <Text.H3 class="text-neutral-400 mt-2 w-8/12">This app displays the latest feedback given by our users and a custom response generator</Text.H3>
+  </Column>
+  <Row class="gap-8">
+    <Column class="basis-6/12">
+      {#await runQuery('index/user-list') then users}
+        <div class="mt-8 rounded-xl border border-slate-200 shadow-sm flex flex-col overflow-hidden">
+          {#each users as user}
+            <a href="?user_id=$text:{user.user_id}">
+              <div class="p-4 -mt-px hover:bg-slate-50 transition-all duration-100 cursor-pointer flex flex-row gap-4">
+                <Column class="h-8 aspect-square justify-center rounded-md
+                  {user.last_score < 7 ? 'bg-red-50' : 
+                  user.last_score < 9 ? 'bg-yellow-50' : 
+                  'bg-green-50'}">
+                  <Text.H3 class="text-xl text-center font-bold 
+                    {user.last_score < 7 ? 'text-red-500' : 
+                    user.last_score < 9 ? 'text-yellow-500' : 
+                    'text-green-500'}">
+                    {user.last_score}
+                  </Text.H3>
+                </Column>
+                <Column class="basis-6/12 justify-center">
+                  <div class="font-bold">User {user.user_id}</div>
+                </Column>
+                <Column class="basis-3/12 justify-center text-right">
+                  <div class="text-sm text-slate-400">{user.count} votes</div>
+                </Column>
+                <Column class="basis-3/12 justify-center text-right">
+                  <div class="text-sm text-slate-400">Last on {user.last_feedback}</div>
+                </Column>
+              </div>
+            </a>
+          {/each}
+        </div>
+      {/await}
+    </Column>
+    <Column class="basis-6/12 grow-0">
+      <Row class="grid grid-cols-2 gap-4 mt-8">
+      {#await runQuery('index/user-feedback') then responses}
+        {#each responses as response}
+        <div class="relative border border-slate-200 p-4 rounded-xl shadow-sm flex flex-row gap-4 bg-white transition-all duration-100 cursor-pointer active:scale-75 hover:z-10
+        {response.score < 7 ? 'hover:scale-90 hover:-rotate-3' : 
+        response.score < 9 ? 'hover:scale-105 hover:rotate-1 hover:shadow-md' : 
+        'hover:scale-125 hover:rotate-3 hover:shadow-lg'}">
+          <Column class="basis-4/12 justify-center rounded-lg
+            {response.score < 7 ? 'bg-red-50' : 
+            response.score < 9 ? 'bg-yellow-50' : 
+            'bg-green-50'}">
+            <Text.H3 class="text-4xl text-center font-bold 
+              {response.score < 7 ? 'text-red-500' : 
+              response.score < 9 ? 'text-yellow-500' : 
+              'text-green-500'}">
+              {response.score}
+            </Text.H3>
+          </Column>
+          <Column class="basis-8/12 justify-between">
+            <Text.H4 class="font-bold text-slate-900">{response.message}</Text.H4>
+            <Text class="mt-2 text-slate-400">{response.formatted_timestamp}</Text>
+          </Column>
+        </div>
+        {/each}
+      {/await}
+      </Row>
+    </Column>
+  </Row>
+</View>

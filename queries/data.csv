@@ -1,0 +1,319 @@
+user_id,score,message,timestamp
+1,9,"Loved the quick service and friendly staff!",2024-03-17T12:00:00
+2,7,"Good service, but the waiting area was a bit crowded.",2024-03-17T12:05:00
+3,5,"Average experience, nothing stood out.",2024-03-17T12:10:00
+4,10,"Exceptional service! Highly recommend.",2024-03-17T12:15:00
+1,8,"Second visit: still impressed with the service quality.",2024-03-17T12:20:00
+5,3,"Disappointed with the long wait time.",2024-03-17T12:25:00
+6,6,"Decent, but I've had better experiences elsewhere.",2024-03-17T12:30:00
+7,8,"Great atmosphere and staff were very welcoming.",2024-03-17T12:35:00
+2,4,"Not as good on a second visit, quite understaffed.",2024-03-17T12:40:00
+8,9,"Everything was perfect, from service to ambiance!",2024-03-17T12:45:00
+9,2,"Very unsatisfied with the customer service.",2024-03-17T12:50:00
+10,8,"Very efficient and friendly service.",2024-03-17T12:55:00
+11,7,"Pleasant experience overall, will come again.",2024-03-17T13:00:00
+12,6,"It was okay, but I think there's a lot of room for improvement.",2024-03-17T13:05:00
+13,9,"I was very impressed! Will definitely recommend to friends.",2024-03-17T13:10:00
+4,7,"Still good, but not as impressive as my first visit.",2024-03-17T13:15:00
+14,5,"Mediocre service, was expecting more based on reviews.",2024-03-17T13:20:00
+15,10,"Absolutely fantastic! Can't wait for my next visit.",2024-03-17T13:25:00
+3,4,"Second time here, and it was less impressive.",2024-03-17T13:30:00
+16,7,"Good, but the ambiance could be improved.",2024-03-17T13:35:00
+17,8,"Service was top-notch, very satisfied.",2024-03-17T13:40:00
+18,3,"Food quality has gone down since my last visit.",2024-03-17T13:45:00
+19,7,"Nice place, but could use more menu options.",2024-03-17T13:50:00
+20,5,"An average experience, nothing special.",2024-03-17T13:55:00
+21,9,"Loved the innovative options! Very creative.",2024-03-17T14:00:00
+7,6,"Service was good, but the food didn't meet my expectations.",2024-03-17T14:05:00
+22,8,"Really liked the ambiance and the service was great!",2024-03-17T14:10:00
+23,4,"Not what I expected based on the reviews. Was quite let down.",2024-03-17T14:15:00
+24,10,"This place never disappoints! Always a pleasure.",2024-03-17T14:20:00
+25,6,"It was fine, but I think there's room for improvement in terms of service.",2024-03-17T14:25:00
+26,8,"The new menu items are a great addition!",2024-03-18T10:00:00
+27,4,"Service was slower than expected, not very happy.",2024-03-18T10:05:00
+28,9,"A wonderful experience, the staff went above and beyond.",2024-03-18T10:10:00
+29,5,"The atmosphere is nice, but the food was just okay.",2024-03-18T10:15:00
+30,7,"Good experience on my first visit, I might come back.",2024-03-18T10:20:00
+31,3,"I was disappointed with the quality of service.",2024-03-18T10:25:00
+32,10,"Absolutely loved it! Can't wait to return.",2024-03-18T10:30:00
+33,6,"It was decent, but there's definitely room for improvement.",2024-03-18T10:35:00
+34,8,"Great place, I really enjoyed the special dishes.",2024-03-18T10:40:00
+35,2,"Not satisfied at all, it was a letdown.",2024-03-18T10:45:00
+36,9,"Fantastic service and amazing food. A must-visit!",2024-03-18T10:50:00
+37,7,"Pleasantly surprised by the quick service.",2024-03-18T10:55:00
+38,5,"Average, nothing really stands out.",2024-03-18T11:00:00
+39,4,"Below expectations, especially with the high prices.",2024-03-18T11:05:00
+4,8,"Really nice experience, the staff were incredible.",2024-03-18T11:10:00
+41,6,"It was okay, but I think the ambiance could be better.",2024-03-18T11:15:00
+42,10,"Loved every moment! The team really knows how to deliver.",2024-03-18T11:20:00
+43,3,"I found the service to be quite lacking.",2024-03-18T11:25:00
+44,7,"Nice place, would recommend checking it out.",2024-03-18T11:30:00
+45,2,"Had higher expectations based on what I heard.",2024-03-18T11:35:00
+46,8,"Very good experience, the desserts were amazing.",2024-03-18T11:40:00
+47,5,"It was alright, but I probably won't rush back.",2024-03-18T11:45:00
+48,9,"Impressive! The quality and service were top-notch.",2024-03-18T11:50:00
+49,6,"Not bad, but it could definitely be improved.",2024-03-18T11:55:00
+50,7,"Good place, but I wish there was more variety in the menu.",2024-03-18T12:00:00
+51,4,"The service was a bit disappointing this time.",2024-03-18T12:05:00
+52,8,"Great atmosphere, really enjoyed my time here.",2024-03-18T12:10:00
+53,3,"Was expecting a lot more based on the reviews.",2024-03-18T12:15:00
+54,9,"Exceptional experience, everything was perfect!",2024-03-18T12:20:00
+55,5,"Mediocre at best, not what I was hoping for.",2024-03-18T12:25:00
+56,7,"Pretty good overall, the staff was friendly.",2024-03-18T12:30:00
+57,6,"It was okay, but there's a lot they could do better.",2024-03-18T12:35:00
+58,10,"Amazing experience, definitely going back!",2024-03-18T12:40:00
+59,8,"Very satisfied with the service and food quality.",2024-03-18T12:45:00
+60,4,"The wait time was longer than I expected.",2024-03-18T12:50:00
+61,9,"Fantastic! The staff made us feel very welcome.",2024-03-18T12:55:00
+62,5,"The food was fine, but nothing memorable.",2024-03-18T13:00:00
+63,8,"Great service, really made our evening special.",2024-03-18T13:05:00
+64,3,"Not very impressed with the overall experience.",2024-03-18T13:10:00
+4,7,"Good vibes and decent food, might give it another try.",2024-03-18T13:15:00
+66,2,"I expected much better, very disappointed.",2024-03-18T13:20:00
+67,8,"Really enjoyed the atmosphere, very cozy and welcoming.",2024-03-18T13:25:00
+68,6,"It's a nice place, but the food didn't live up to the hype.",2024-03-18T13:30:00
+69,9,"Outstanding service! The team is doing a great job.",2024-03-18T13:35:00
+70,5,"Average experience, could use some improvements.",2024-03-18T13:40:00
+71,7,"Enjoyable visit, the staff was very attentive.",2024-03-18T13:45:00
+72,4,"Service could be better, not what I expected.",2024-03-18T13:50:00
+73,8,"The environment is great, had a really good time.",2024-03-18T13:55:00
+74,6,"Food was good, but the service was lacking.",2024-03-18T14:00:00
+75,9,"Incredible experience, highly recommend it!",2024-03-18T14:05:00
+76,7,"Enjoyed the live music, added a great touch to the evening.",2024-03-19T10:00:00
+77,4,"Expected a lot more based on the hype, quite underwhelmed.",2024-03-19T10:05:00
+78,8,"The outdoor seating area was lovely, really enjoyed the ambiance.",2024-03-19T10:10:00
+79,5,"The place was too noisy for my taste, couldn't enjoy the conversation.",2024-03-19T10:15:00
+80,6,"Service was fine, but the food took too long to arrive.",2024-03-19T10:20:00
+81,9,"A gem of a place, fantastic food and service!",2024-03-19T10:25:00
+82,3,"Not worth the price, both food and service were subpar.",2024-03-19T10:30:00
+83,7,"Pleasantly surprised by the vegan options, very tasty.",2024-03-19T10:35:00
+84,10,"Outstanding! Every dish was a delight.",2024-03-19T10:40:00
+85,2,"Very disappointed, will not be returning.",2024-03-19T10:45:00
+86,8,"The staff were super friendly and made our night special.",2024-03-19T10:50:00
+87,5,"Middle of the road for me, nothing particularly stood out.",2024-03-19T10:55:00
+88,6,"It was alright, though I expected more from the reviews.",2024-03-19T11:00:00
+89,9,"Superb experience, from the atmosphere to the service!",2024-03-19T11:05:00
+4,4,"Not as clean as I hoped, and the service was mediocre.",2024-03-19T11:10:00
+91,7,"Good for a quick meal, but not for a special occasion.",2024-03-19T11:15:00
+92,3,"Felt rushed by the staff, not a relaxing experience.",2024-03-19T11:20:00
+93,8,"Lovely decor and warm atmosphere, really enjoyed it.",2024-03-19T11:25:00
+94,5,"The food was okay but lacked flavor, expected better.",2024-03-19T11:30:00
+95,10,"An absolute must-visit! The culinary experience was unforgettable.",2024-03-19T11:35:00
+96,6,"Decent place, but there's room for improvement in service.",2024-03-19T11:40:00
+97,7,"Good atmosphere, the live band was a nice addition.",2024-03-19T11:45:00
+98,2,"Terrible experience, the waiter was rude and the food cold.",2024-03-19T11:50:00
+99,8,"Great experience, loved the innovative cocktail menu!",2024-03-19T11:55:00
+100,9,"Everything was perfect, from the attentive service to the exquisite food.",2024-03-19T12:00:00
+101,4,"The ambiance is nice, but the food didn't live up to the expectations.",2024-03-19T12:05:00
+102,6,"It was okay, a bit pricey for what you get though.",2024-03-19T12:10:00
+103,5,"Average experience, the dessert was the only highlight.",2024-03-19T12:15:00
+104,7,"Nice place for a date night, the lighting sets a romantic mood.",2024-03-19T12:20:00
+105,3,"Service was lacking, had to ask multiple times for water.",2024-03-19T12:25:00
+106,8,"The brunch menu is fantastic, highly recommend the pancakes.",2024-03-19T12:30:00
+107,2,"Disappointed with the service, very slow and unattentive.",2024-03-19T12:35:00
+108,9,"Loved the seasonal menu, everything was fresh and delicious.",2024-03-19T12:40:00
+109,5,"The food was mediocre, have had better at lower prices elsewhere.",2024-03-19T12:45:00
+110,7,"A solid choice for dining out, the steak was cooked to perfection.",2024-03-19T12:50:00
+111,6,"Not bad, but the noise level made it hard to enjoy the meal.",2024-03-19T12:55:00
+112,4,"The dishes were uninspired, expected more creativity.",2024-03-19T13:00:00
+113,8,"A cozy spot, perfect for catching up with friends over coffee.",2024-03-19T13:05:00
+114,3,"Felt overpriced for the quality of food served.",2024-03-19T13:10:00
+115,9,"Incredible vegan options, left feeling satisfied and happy.",2024-03-19T13:15:00
+116,5,"It was just fine, nothing I'd rush back for.",2024-03-19T13:20:00
+117,10,"Stellar experience, the chef's special was out of this world!",2024-03-19T13:25:00
+118,7,"Enjoyable meal with prompt service, will consider revisiting.",2024-03-19T13:30:00
+119,6,"The ambiance is great, but the portions are a bit small.",2024-03-19T13:35:00
+120,8,"Loved the theme night, the food and entertainment were great.",2024-03-19T13:40:00
+121,4,"Wished the menu had more variety, felt quite limited.",2024-03-19T13:45:00
+122,9,"The attention to detail is impressive, from presentation to flavor.",2024-03-19T13:50:00
+123,3,"Not satisfied with the meal, the meat was overcooked.",2024-03-19T13:55:00
+124,7,"A good experience, particularly enjoyed the wine selection.",2024-03-19T14:00:00
+125,2,"Expected much more, the service was disorganized and slow.",2024-03-19T14:05:00
+126,8,"Really enjoyed the seasonal salad, fresh and flavorful!",2024-03-20T10:00:00
+127,6,"The ambiance is nice, but the service was a bit slow.",2024-03-20T10:05:00
+128,9,"Outstanding customer service, made us feel very welcome.",2024-03-20T10:10:00
+129,5,"The main course was a bit bland, expected more from the flavor.",2024-03-20T10:15:00
+130,7,"Good place for a casual dinner, prices are reasonable.",2024-03-20T10:20:00
+131,4,"Disappointed with the dessert, it wasn't as described on the menu.",2024-03-20T10:25:00
+132,10,"An amazing dining experience, every dish was a hit.",2024-03-20T10:30:00
+133,3,"Waited too long for our table, even with a reservation.",2024-03-20T10:35:00
+134,8,"Loved the live jazz night, added a great vibe to the dining experience.",2024-03-20T10:40:00
+135,2,"Very unsatisfied, the food was cold and service inattentive.",2024-03-20T10:45:00
+136,9,"Every visit is better than the last, truly a favorite spot.",2024-03-20T10:50:00
+137,7,"Enjoyable atmosphere, but the fish dish was too salty for my taste.",2024-03-20T10:55:00
+138,5,"It's an okay spot, but I doubt I'll be returning soon.",2024-03-20T11:00:00
+139,6,"Friendly staff, but the burger was overcooked and dry.",2024-03-20T11:05:00
+140,8,"Great wine selection, complemented the meal perfectly.",2024-03-20T11:10:00
+141,3,"The noise level was unbearable, couldn't hear my own thoughts.",2024-03-20T11:15:00
+142,10,"Fantastic! The chef's tasting menu is a must-try.",2024-03-20T11:20:00
+143,4,"Portion sizes have decreased but prices haven't, disappointing.",2024-03-20T11:25:00
+144,7,"A decent meal, but nothing that would bring me back in a hurry.",2024-03-20T11:30:00
+145,9,"A delightful surprise, the vegan burger is outstanding.",2024-03-20T11:35:00
+146,6,"The interior is nice, but the sushi lacked freshness.",2024-03-20T11:40:00
+147,8,"Impressive service, our server was very knowledgeable and helpful.",2024-03-20T11:45:00
+148,5,"Mediocre pizza, crust was too chewy for my liking.",2024-03-20T11:50:00
+149,7,"The outdoor patio is lovely for a summer evening meal.",2024-03-20T11:55:00
+150,9,"Exquisite flavors, the fusion dishes are creatively executed.",2024-03-20T12:00:00
+151,4,"Not what I expected, the themes seem a bit forced and incoherent.",2024-03-20T12:05:00
+152,10,"Spectacular service and ambiance, a memorable experience.",2024-03-20T12:10:00
+153,6,"Okay for a quick bite, but wouldn't plan a night out here.",2024-03-20T12:15:00
+154,8,"Really nice spot for brunch, the eggs benedict is a must.",2024-03-20T12:20:00
+155,3,"The wait for food was too long, and it wasn't worth the wait.",2024-03-20T12:25:00
+156,7,"A solid choice for dinner, the steak was cooked just right.",2024-03-20T12:30:00
+157,5,"Found the place to be overrated, nothing stood out.",2024-03-20T12:35:00
+158,9,"Lovely quaint cafe with excellent pastries and coffee.",2024-03-20T12:40:00
+159,6,"Average at best, expected more based on the online ratings.",2024-03-20T12:45:00
+160,8,"Pleasantly surprised by the quality of the vegan options.",2024-03-20T12:50:00
+161,2,"The dishes were unimaginative and lacked flavor.",2024-03-20T12:55:00
+162,10,"Perfect in every way, from ambiance to the exquisite cuisine.",2024-03-20T13:00:00
+163,4,"The theme night was a letdown, didn't live up to the hype.",2024-03-20T13:05:00
+164,7,"Good for a group outing, but not for an intimate dinner.",2024-03-20T13:10:00
+165,5,"The meal was forgettable, nothing I'd want to have again.",2024-03-20T13:15:00
+166,8,"The cocktail menu is innovative, really enjoyed the unique flavors.",2024-03-20T13:20:00
+167,3,"Service was sluggish, seemed like they were understaffed.",2024-03-20T13:25:00
+168,9,"The special of the day was fantastic, highly recommend trying it.",2024-03-20T13:30:00
+169,6,"It was fine, but I don't see what all the fuss is about.",2024-03-20T13:35:00
+170,8,"Great location, the view adds a lot to the dining experience.",2024-03-20T13:40:00
+171,4,"The meal was disappointing, especially for the price point.",2024-03-20T13:45:00
+172,7,"Nice spot for a casual meal, the sandwiches are pretty good.",2024-03-20T13:50:00
+173,9,"Impressed with the attentive service and the quality of the food.",2024-03-20T13:55:00
+174,5,"An okay place, but there are better options nearby.",2024-03-20T14:00:00
+175,2,"Had to send my dish back because it was undercooked.",2024-03-20T14:05:00
+160,7,"Enjoyed the special of the day, very flavorful and well presented.",2024-03-21T10:00:00
+161,3,"Service was disappointing, had to wait too long for simple requests.",2024-03-21T10:05:00
+162,8,"The ambiance of the place is fantastic, really sets the mood.",2024-03-21T10:10:00
+163,5,"The meal was just okay, nothing particularly memorable.",2024-03-21T10:15:00
+164,9,"Exceptional service! Staff was attentive and made great recommendations.",2024-03-21T10:20:00
+165,2,"Was really let down by the quality of the food for the price.",2024-03-21T10:25:00
+166,7,"A good spot for a casual meal, enjoyed the relaxed vibe.",2024-03-21T10:30:00
+167,4,"Expected more from the rave reviews, it was quite average.",2024-03-21T10:35:00
+168,10,"Incredible dining experience, the chef's pairing was perfect!",2024-03-21T10:40:00
+166,6,"It's a nice place but the food didn't quite meet my expectations.",2024-03-21T10:45:00
+170,8,"Great location, the view adds a lot to the dining experience.",2024-03-21T10:50:00
+171,3,"The food was underwhelming, especially given the high prices.",2024-03-21T10:55:00
+172,9,"Loved every bite, from appetizers to dessert. Fantastic!",2024-03-21T11:00:00
+173,5,"The atmosphere is cozy but the menu is limited.",2024-03-21T11:05:00
+174,7,"Pleasant service and a nice selection of wines.",2024-03-21T11:10:00
+175,4,"The dishes were a bit too experimental for my taste.",2024-03-21T11:15:00
+176,8,"Really vibrant atmosphere and delicious, creative cocktails.",2024-03-21T11:20:00
+177,2,"Disappointed with the overall experience, won't be returning.",2024-03-21T11:25:00
+178,6,"The food was okay, but nothing stood out as exceptional.",2024-03-21T11:30:00
+179,10,"Outstanding! A must-visit for food lovers.",2024-03-21T11:35:00
+180,5,"An average dining experience, not bad but not great either.",2024-03-21T11:40:00
+181,7,"Friendly staff and a cozy setting, made for a nice evening.",2024-03-21T11:45:00
+182,3,"Overpriced for what you get, both in terms of food and experience.",2024-03-21T11:50:00
+183,9,"A perfect evening, the seasonal menu is spectacular.",2024-03-21T11:55:00
+184,6,"Good for a quick meal, but lacks the wow factor.",2024-03-21T12:00:00
+185,8,"The homemade pasta is a game changer, absolutely delicious.",2024-03-21T12:05:00
+186,4,"Wanted to love it, but the meal was just not up to par.",2024-03-21T12:10:00
+187,7,"Solid choice for a business lunch, service was prompt and courteous.",2024-03-21T12:15:00
+163,5,"It was alright, but I've had better meals elsewhere.",2024-03-21T12:20:00
+189,8,"The craft beer selection is impressive, great for beer enthusiasts.",2024-03-21T12:25:00
+190,2,"Very disappointing, both the service and the food were lacking.",2024-03-21T12:30:00
+191,9,"Amazing atmosphere, the live music nights are a real treat.",2024-03-21T12:35:00
+192,6,"Decent diner, but nothing to write home about.",2024-03-21T12:40:00
+193,7,"Good vegetarian options, it's nice to see a variety.",2024-03-21T12:45:00
+194,3,"The place was too crowded and noisy, not a pleasant dining experience.",2024-03-21T12:50:00
+195,10,"Everything was spot on, from the ambiance to the exquisite dishes.",2024-03-21T12:55:00
+196,4,"Not quite what I was hoping for, the dishes lacked flavor.",2024-03-21T13:00:00
+197,8,"The seasonal fruit cocktails are a must-try, really refreshing.",2024-03-21T13:05:00
+198,5,"Middle of the road in terms of quality and experience.",2024-03-21T13:10:00
+199,7,"Nice spot for a date, the lighting and music set a great mood.",2024-03-21T13:15:00
+200,2,"Felt like the staff was rushing us, not a relaxing meal at all.",2024-03-21T13:20:00
+201,9,"Superb vegan options, didn't miss the meat at all.",2024-03-21T13:25:00
+202,6,"The sushi was decent but I've definitely had better elsewhere.",2024-03-21T13:30:00
+203,8,"A cozy cafe with great coffee and a warm atmosphere.",2024-03-21T13:35:00
+204,3,"Expected more based on the prices, left feeling underwhelmed.",2024-03-21T13:40:00
+205,7,"The brunch here is good, a nice variety and fresh ingredients.",2024-03-21T13:45:00
+166,4,"The theme seemed promising but the execution was lacking.",2024-03-21T13:50:00
+207,10,"Phenomenal experience, the attention to detail is unmatched.",2024-03-21T13:55:00
+208,5,"An okay experience, but there's definitely room for improvement.",2024-03-21T14:00:00
+209,8,"The tapas selection is fantastic, great for sharing with friends.",2024-03-21T14:05:00
+210,6,"The steak was a bit overcooked for my liking.",2024-03-22T10:00:00
+211,9,"Impeccable service, the staff really made us feel special.",2024-03-22T10:05:00
+212,7,"Nice place for a quick lunch, salads are fresh and tasty.",2024-03-22T10:10:00
+213,4,"Was expecting more vibrant flavors, but it felt a bit bland.",2024-03-22T10:15:00
+214,8,"The ambiance is perfect for a romantic dinner.",2024-03-22T10:20:00
+215,5,"The burger was okay, but nothing extraordinary.",2024-03-22T10:25:00
+216,3,"Too noisy and crowded, not a great dining experience.",2024-03-22T10:30:00
+217,7,"A solid choice for seafood, everything tasted fresh.",2024-03-22T10:35:00
+218,2,"Really disappointed with the slow service and cold food.",2024-03-22T10:40:00
+219,8,"Loved the creative cocktail menu, everything was delicious.",2024-03-22T10:45:00
+220,6,"The dessert menu was good, but the main course lacked flavor.",2024-03-22T10:50:00
+221,10,"An exceptional meal, every dish was cooked to perfection.",2024-03-22T10:55:00
+222,4,"The themed decor is nice, but the food doesn't match up.",2024-03-22T11:00:00
+223,9,"Fabulous wine list, and the pairing recommendations were spot on.",2024-03-22T11:05:00
+224,7,"Great for a casual night out, the pizza is a must-try.",2024-03-22T11:10:00
+225,3,"Found the dishes to be overpriced for the quality provided.",2024-03-22T11:15:00
+226,8,"The outdoor setting is beautiful, especially at sunset.",2024-03-22T11:20:00
+227,5,"An average dining experience, was expecting a bit more.",2024-03-22T11:25:00
+166,6,"The wait staff was friendly, but the kitchen was slow.",2024-03-22T11:30:00
+229,9,"A culinary delight, each course was better than the last.",2024-03-22T11:35:00
+230,4,"The atmosphere was nice, but the food didn't live up to it.",2024-03-22T11:40:00
+231,7,"Good selection of craft beers, enhances the dining experience.",2024-03-22T11:45:00
+232,2,"Unhappy with the service, felt ignored by the waitstaff.",2024-03-22T11:50:00
+233,8,"The sushi rolls are some of the best I've had.",2024-03-22T11:55:00
+234,6,"The venue is great, but the food is just okay.",2024-03-22T12:00:00
+235,10,"Outstanding experience, the seasonal dishes are a highlight.",2024-03-22T12:05:00
+236,5,"It's decent for a quick meal, but I wouldn't go out of my way.",2024-03-22T12:10:00
+237,3,"Expected a cozy dining experience, but it was too chaotic.",2024-03-22T12:15:00
+238,9,"Excellent vegan options, not an afterthought like some places.",2024-03-22T12:20:00
+239,7,"Pleasantly surprised by the quality of the vegetarian dishes.",2024-03-22T12:25:00
+240,4,"The place looks great, but the dishes were a letdown.",2024-03-22T12:30:00
+241,8,"The chef's specials are always a treat, highly recommend.",2024-03-22T12:35:00
+242,6,"The meal was alright, but nothing I'd rush back for.",2024-03-22T12:40:00
+243,2,"Frustrating experience, the order was wrong and service slow.",2024-03-22T12:45:00
+244,7,"A good experience overall, the fish tacos were fantastic.",2024-03-22T12:50:00
+245,5,"Fairly average, nothing about the meal stood out.",2024-03-22T12:55:00
+246,9,"Impressed by the attentive service and the quality of the food.",2024-03-22T13:00:00
+247,3,"The noise level made it hard to enjoy the meal.",2024-03-22T13:05:00
+248,8,"The pasta dishes are excellent, with authentic flavors.",2024-03-22T13:10:00
+249,4,"The dining room was cramped and uncomfortable.",2024-03-22T13:15:00
+250,7,"Enjoyable brunch spot, the pancakes are especially good.",2024-03-22T13:20:00
+251,6,"Not bad, but I found the menu to be quite limited.",2024-03-22T13:25:00
+252,10,"Absolutely fantastic, from the ambiance to the impeccable service.",2024-03-22T13:30:00
+253,5,"The experience was okay, but I doubt I'll return.",2024-03-22T13:35:00
+254,2,"Very disappointed, the steak was overcooked and tough.",2024-03-22T13:40:00
+255,8,"Loved the cozy vibe and the gourmet coffee selection.",2024-03-22T13:45:00
+256,3,"The service was lacking, seemed like they were understaffed.",2024-03-22T13:50:00
+257,7,"The rooftop bar has amazing views and a great drink menu.",2024-03-22T13:55:00
+258,4,"The appetizers were good, but the main courses fell flat.",2024-03-22T14:00:00
+259,9,"Incredible attention to detail, both in service and cuisine.",2024-03-22T14:05:00
+260,6,"The food was decent, but the service was lacking.",2024-03-23T10:00:00
+261,7,"The outdoor seating area is lovely, especially in the evenings.",2024-03-23T10:05:00
+262,4,"The food was underwhelming, especially for the price.",2024-03-23T10:10:00
+212,8,"The ambiance is perfect for a romantic dinner.",2024-03-23T10:15:00
+139,5,"The burger was okay, but nothing extraordinary.",2024-03-23T10:20:00
+92,3,"Too noisy and crowded, not a great dining experience.",2024-03-23T10:25:00
+28,7,"A solid choice for seafood, everything tasted fresh.",2024-03-23T10:30:00
+18,2,"Really disappointed with the slow service and cold food.",2024-03-23T10:35:00
+49,8,"Loved the creative cocktail menu, everything was delicious.",2024-03-23T10:40:00
+50,6,"The dessert menu was good, but the main course lacked flavor.",2024-03-23T10:45:00
+251,10,"An exceptional meal, every dish was cooked to perfection.",2024-03-23T10:50:00
+182,4,"The themed decor is nice, but the food doesn't match up.",2024-03-23T10:55:00
+183,9,"Fabulous wine list, and the pairing recommendations were spot on.",2024-03-23T11:00:00
+39,7,"Great for a casual night out, the pizza is a must-try.",2024-03-23T11:05:00
+40,3,"Found the dishes to be overpriced for the quality provided.",2024-03-23T11:10:00
+91,8,"The outdoor setting is beautiful, especially at sunset.",2024-03-23T11:15:00
+92,5,"An average dining experience, was expecting a bit more.",2024-03-23T11:20:00
+53,6,"The wait staff was friendly, but the kitchen was slow.",2024-03-23T11:25:00
+39,9,"A culinary delight, each course was better than the last.",2024-03-23T11:30:00
+240,4,"The atmosphere was nice, but the food didn't live up to it.",2024-03-23T11:35:00
+91,7,"Good selection of craft beers, enhances the dining experience.",2024-03-23T11:40:00
+40,2,"Unhappy with the service, felt ignored by the waitstaff.",2024-03-23T11:45:00
+93,8,"Loved the creative cocktail menu, everything was delicious.",2024-03-23T11:50:00
+294,6,"The dessert menu was good, but the main course lacked flavor.",2024-03-23T11:55:00
+295,10,"An exceptional meal, every dish was cooked to perfection.",2024-03-23T12:00:00
+97,4,"The themed decor is nice, but the food doesn't match up.",2024-03-23T12:05:00
+47,9,"Fabulous wine list, and the pairing recommendations were spot on.",2024-03-23T12:10:00
+298,7,"Great for a casual night out, the pizza is a must-try.",2024-03-23T12:15:00
+50,3,"Found the dishes to be overpriced for the quality provided.",2024-03-23T12:20:00
+301,8,"The outdoor setting is beautiful, especially at sunset.",2024-03-23T12:25:00
+162,5,"An average dining experience, was expecting a bit more.",2024-03-23T12:30:00
+172,6,"The wait staff was friendly, but the kitchen was slow.",2024-03-23T12:35:00
+165,9,"A culinary delight, each course was better than the last.",2024-03-23T12:40:00
+92,4,"The atmosphere was nice, but the food didn't live up to it.",2024-03-23T12:45:00
+49,7,"Good selection of craft beers, enhances the dining experience.",2024-03-23T12:50:00
+93,2,"Unhappy with the service, felt ignored by the waitstaff.",2024-03-23T12:55:00
+163,8,"Loved the creative cocktail menu, everything was delicious.",2024-03-23T13:00:00
+172,6,"The dessert menu was good, but the main course lacked flavor.",2024-03-23T13:05:00
