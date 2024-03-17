@@ -1,18 +1,25 @@
+<script>
+  function handleClick() {
+    console.log('hehey')
+  }
+</script>
 <svelte:head>
-  <title>Sample project</title>
+  <title>NPS response browser</title>
 </svelte:head>
 <View class="flex-col gap-8 p-16">
   <Column>
-    <Text.H1 class="font-bold">NPS response generator</Text.H1>
-    <Text.H3 class="text-neutral-400 mt-2 w-8/12">This app displays the latest feedback given by our users and a custom response generator</Text.H3>
+    <Text.H1 class="text-slate-900 font-bold">NPS response browser</Text.H1>
+    <Text.H3 class="text-slate-400 mt-2 w-8/12">This app displays the latest feedback given by our users and (eventually) a custom response generator</Text.H3>
   </Column>
   <Row class="gap-8">
-    <Column class="basis-6/12">
+    <Column class="basis-4/12">
+      <Text.H3 class="mt-4 font-bold">User list</Text.H3>
+      <Text.H4 class="text-slate-400">Select a user to see their feedback</Text.H4>
       {#await runQuery('index/user-list') then users}
-        <div class="mt-8 rounded-xl border border-slate-200 shadow-sm flex flex-col overflow-hidden">
+        <div class="mt-4 rounded-xl border border-slate-200 shadow-sm flex flex-col overflow-hidden">
           {#each users as user}
-            <a href="?user_id=$text:{user.user_id}">
-              <div class="p-4 -mt-px hover:bg-slate-50 transition-all duration-100 cursor-pointer flex flex-row gap-4">
+            <a href="?user_id=$text:{user.user_id}" class="border-b last:border-b-0">
+              <div class="p-4 hover:bg-slate-50 transition-all duration-100 cursor-pointer flex flex-row gap-4">
                 <Column class="h-8 aspect-square justify-center rounded-md
                   {user.last_score < 7 ? 'bg-red-50' : 
                   user.last_score < 9 ? 'bg-yellow-50' : 
@@ -27,11 +34,11 @@
                 <Column class="basis-6/12 justify-center">
                   <div class="font-bold">User {user.user_id}</div>
                 </Column>
-                <Column class="basis-3/12 justify-center text-right">
+                <Column class="basis-6/12 justify-center text-right">
                   <div class="text-sm text-slate-400">{user.count} votes</div>
                 </Column>
-                <Column class="basis-3/12 justify-center text-right">
-                  <div class="text-sm text-slate-400">Last on {user.last_feedback}</div>
+                <Column class="h-8 self-end text-slate-300 text-xl rounded-md aspect-square justify-center font-bold text-center">
+                  →
                 </Column>
               </div>
             </a>
@@ -39,15 +46,19 @@
         </div>
       {/await}
     </Column>
-    <Column class="basis-6/12 grow-0">
-      <Row class="grid grid-cols-2 gap-4 mt-8">
+    <Column class="basis-8/12 grow-0">
       {#await runQuery('index/user-feedback') then responses}
+        <Text.H3 class="mt-4 font-bold">User { responses[0].user_id }'s feedback</Text.H3>
+      <Text.H4 class="text-slate-400">Click on one of the votes to generate a response</Text.H4>
+      <Row class="grid grid-cols-2 gap-4 mt-4">
         {#each responses as response}
-        <div class="relative border border-slate-200 p-4 rounded-xl shadow-sm flex flex-row gap-4 bg-white transition-all duration-100 cursor-pointer active:scale-75 hover:z-10
-        {response.score < 7 ? 'hover:scale-90 hover:-rotate-3' : 
-        response.score < 9 ? 'hover:scale-105 hover:rotate-1 hover:shadow-md' : 
-        'hover:scale-125 hover:rotate-3 hover:shadow-lg'}">
-          <Column class="basis-4/12 justify-center rounded-lg
+        <div
+          on:click={handleClick}
+          class="relative border border-slate-200 select-none p-4 rounded-xl shadow-sm flex flex-row gap-4 bg-white transition-all duration-100 cursor-pointer active:scale-75 hover:z-10
+          {response.score < 7 ? 'hover:scale-90 hover:-rotate-3' : 
+          response.score < 9 ? 'hover:scale-110 hover:rotate-1 hover:shadow-lg hover:shadow-slate-500/10' : 
+          'hover:scale-125 hover:rotate-3 hover:shadow-lg hover:shadow-slate-500/10'}">
+          <Column class="basis-2/12 justify-center h-full aspect-square rounded-lg
             {response.score < 7 ? 'bg-red-50' : 
             response.score < 9 ? 'bg-yellow-50' : 
             'bg-green-50'}">
@@ -64,8 +75,8 @@
           </Column>
         </div>
         {/each}
+        </Row>
       {/await}
-      </Row>
     </Column>
   </Row>
 </View>
