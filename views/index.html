@@ -58,11 +58,11 @@
           {response.score < 7 ? 'hover:scale-90 hover:-rotate-3' : 
           response.score < 9 ? 'hover:scale-110 hover:rotate-1 hover:shadow-lg hover:shadow-slate-500/10' : 
           'hover:scale-125 hover:rotate-3 hover:shadow-lg hover:shadow-slate-500/10'}">
-          <Column class="basis-2/12 justify-center h-full aspect-square rounded-lg
+          <Column class="justify-center h-16 aspect-square rounded-lg
             {response.score < 7 ? 'bg-red-50' : 
             response.score < 9 ? 'bg-yellow-50' : 
             'bg-green-50'}">
-            <Text.H3 class="text-4xl text-center font-bold 
+            <Text.H3 class="text-3xl text-center font-bold 
               {response.score < 7 ? 'text-red-500' : 
               response.score < 9 ? 'text-yellow-500' : 
               'text-green-500'}">
@@ -71,7 +71,7 @@
           </Column>
           <Column class="basis-8/12 justify-between">
             <Text.H4 class="font-bold text-slate-900">{response.message}</Text.H4>
-            <Text class="mt-2 text-slate-400">{response.formatted_timestamp}</Text>
+            <Text class="mt-1 text-slate-400">{response.formatted_timestamp}</Text>
           </Column>
         </div>
         {/each}
