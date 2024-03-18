@@ -1,7 +1,9 @@
 <script>
-  function handleClick() {
-    console.log('hehey')
-  }
+   import { setViewParam } from "$lib/stores/viewParams";
+
+   function onClick (value) {
+     setViewParam('user_id', value);
+   }
 </script>
 <svelte:head>
   <title>NPS response browser</title>
@@ -18,7 +20,7 @@
       {#await runQuery('index/user-list') then users}
         <div class="mt-4 rounded-xl border border-slate-200 shadow-sm flex flex-col overflow-hidden">
           {#each users as user}
-            <a href="?user_id=$text:{user.user_id}" class="border-b last:border-b-0">
+            <a on:click={() => onClick(user.user_id)} class="border-b last:border-b-0">
               <div class="p-4 hover:bg-slate-50 transition-all duration-100 cursor-pointer flex flex-row gap-4">
                 <Column class="h-8 aspect-square justify-center rounded-md
                   {user.last_score < 7 ? 'bg-red-50' : 
@@ -47,35 +49,36 @@
       {/await}
     </Column>
     <Column class="basis-8/12 grow-0">
-      {#await runQuery('index/user-feedback') then responses}
-        <Text.H3 class="mt-4 font-bold">User { responses[0].user_id }'s feedback</Text.H3>
+    {#await runQuery('index/user-feedback', { user_id: input('user_id') }, { reactiveToParams: true }) then responses}
+      <Text.H3 class="mt-4 font-bold">User { responses[0]?.user_id }'s feedback</Text.H3>
       <Text.H4 class="text-slate-400">Click on one of the votes to generate a response</Text.H4>
-      <Row class="grid grid-cols-2 gap-4 mt-4">
-        {#each responses as response}
-        <div
-          on:click={handleClick}
-          class="relative border border-slate-200 select-none p-4 rounded-xl shadow-sm flex flex-row gap-4 bg-white transition-all duration-100 cursor-pointer active:scale-75 hover:z-10
-          {response.score < 7 ? 'hover:scale-90 hover:-rotate-3' : 
-          response.score < 9 ? 'hover:scale-110 hover:rotate-1 hover:shadow-lg hover:shadow-slate-500/10' : 
-          'hover:scale-125 hover:rotate-3 hover:shadow-lg hover:shadow-slate-500/10'}">
-          <Column class="justify-center h-16 aspect-square rounded-lg
-            {response.score < 7 ? 'bg-red-50' : 
-            response.score < 9 ? 'bg-yellow-50' : 
-            'bg-green-50'}">
-            <Text.H3 class="text-3xl text-center font-bold 
-              {response.score < 7 ? 'text-red-500' : 
-              response.score < 9 ? 'text-yellow-500' : 
-              'text-green-500'}">
-              {response.score}
-            </Text.H3>
-          </Column>
-          <Column class="basis-8/12 justify-between">
-            <Text.H4 class="font-bold text-slate-900">{response.message}</Text.H4>
-            <Text class="mt-1 text-slate-400">{response.formatted_timestamp}</Text>
-          </Column>
-        </div>
-        {/each}
+      {#if responses.length > 0}
+        <Row class="grid grid-cols-2 gap-4 mt-4">
+          {#each responses as response}
+            <div
+              class="relative border border-slate-200 select-none p-4 rounded-xl shadow-sm flex flex-row gap-4 bg-white transition-all duration-100 cursor-pointer active:scale-75 hover:z-10
+              {response.score < 7 ? 'hover:scale-90 hover:-rotate-3' : 
+              response.score < 9 ? 'hover:scale-110 hover:rotate-1 hover:shadow-lg hover:shadow-slate-500/10' : 
+              'hover:scale-125 hover:rotate-3 hover:shadow-lg hover:shadow-slate-500/10'}">
+              <Column class="justify-center h-16 aspect-square rounded-lg
+                {response.score < 7 ? 'bg-red-50' : 
+                response.score < 9 ? 'bg-yellow-50' : 
+                'bg-green-50'}">
+                <Text.H3 class="text-3xl text-center font-bold 
+                  {response.score < 7 ? 'text-red-500' : 
+                  response.score < 9 ? 'text-yellow-500' : 
+                  'text-green-500'}">
+                  {response.score}
+                </Text.H3>
+              </Column>
+              <Column class="basis-8/12 justify-between">
+                <Text.H4 class="font-bold text-slate-900">{response.message}</Text.H4>
+                <Text class="mt-1 text-slate-400">{response.formatted_timestamp}</Text>
+              </Column>
+            </div>
+          {/each}
         </Row>
+      {/if}
       {/await}
     </Column>
   </Row>
